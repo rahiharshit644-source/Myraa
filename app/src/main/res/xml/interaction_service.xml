@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  VoiceInteractionService configuration.
+  sessionService points to our VoiceInteractionSession implementation.
+-->
+<voice-interaction-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService=".assistant.SoltiniVoiceInteractionSession"
+    android:supportsLocalInteraction="true" />

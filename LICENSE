@@ -1,0 +1,88 @@
+SOURCE-AVAILABLE SOFTWARE LICENSE
+PERSONAL AND NON-COMMERCIAL USE ONLY
+
+Copyright (c) 2024-2026 Soltini App Contributors. All rights reserved.
+
+================================================================================
+TERMS AND CONDITIONS FOR ACCESS, USE, AND EVALUATION
+================================================================================
+
+This software and associated documentation files (the "Software") are provided 
+under a source-available, non-commercial license. By accessing, downloading, 
+viewing, compiling, or using the Software, you agree to be bound by the terms 
+and conditions of this License Agreement ("Agreement"). If you do not agree to 
+these terms, do not access, copy, modify, or use the Software.
+
+1. GRANT OF LICENSE
+-------------------
+Subject to the restrictions set forth herein, the Licensor hereby grants you a 
+revocable, non-exclusive, non-transferable, and royalty-free license to:
+  (a) View, inspect, and evaluate the source code for educational, research, 
+      and personal evaluation purposes;
+  (b) Compile, build, and run the Software strictly on personal, non-commercial 
+      devices for your own private, personal use.
+
+2. NON-COMMERCIAL RESTRICTION
+-----------------------------
+The Software is licensed STRICTLY FOR PERSONAL AND NON-COMMERCIAL PURPOSES. 
+You may NOT:
+  (a) Use the Software or any portion thereof in connection with any commercial 
+      enterprise, commercial product, paid service, subscription, advertisement-
+      supported application, or revenue-generating activity;
+  (b) Integrate the Software or any derivative work into software, hardware, or 
+      services distributed, sold, or leased to third parties;
+  (c) Offer the Software as a service (SaaS), hosted backend, API, or managed 
+      solution to third parties for commercial gain.
+
+3. REDISTRIBUTION AND SUBLICENSING PROHIBITIONS
+-----------------------------------------------
+  (a) Redistribution Prohibited: You may not publish, host, distribute, share, 
+      mirror, upload to public repositories, or transfer the source code or binary 
+      distributions of this Software or derivative works to third parties without 
+      prior written consent from the copyright holder.
+  (b) No Sublicensing: You may not sublicense, assign, rent, lease, or lend 
+      the Software or rights under this Agreement to any third party.
+
+4. DERIVATIVE WORKS AND MODIFICATIONS
+-------------------------------------
+You may modify the source code solely for your own private, personal, non-commercial 
+experimentation. However, publishing, releasing, or distributing modified versions 
+or derivative works of this Software (in source or binary form) is strictly 
+prohibited without prior written permission from the Licensor.
+
+5. INTELLECTUAL PROPERTY & PROPRIETARY NOTICES
+----------------------------------------------
+The Licensor retains all right, title, and interest in and to the Software, 
+including all copyrights, patents, trade secrets, trademarks, and other intellectual 
+property rights. You must retain all copyright notices, license headers, and 
+disclaimers in any copy or modification of the Software that you retain for personal use.
+
+6. TERMINATION
+--------------
+This License and the rights granted hereunder will terminate automatically 
+without notice if you fail to comply with any term or condition of this Agreement. 
+Upon termination, you must immediately cease all use of the Software and destroy 
+all copies, full or partial, in your possession.
+
+7. DISCLAIMER OF WARRANTIES
+---------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS, COPYRIGHT HOLDERS, OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR 
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING 
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+IN THE SOFTWARE.
+
+8. COMMERCIAL LICENSING & PERMISSIONS
+-------------------------------------
+For inquiries regarding commercial licensing, distribution rights, custom integrations, 
+or permissions outside the scope of this Agreement, please contact the project 
+maintainers.
+
+================================================================================
+SUMMARY:
+Source-available software — Personal & Non-Commercial Use Only.
+Commercial use, redistribution, sublicensing, and publication of the source code 
+or derivative works are prohibited without prior written permission.
+================================================================================

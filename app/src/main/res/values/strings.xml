@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Myra</string>
+    <string name="accessibility_service_description">Allows Myra to perform device controls and provide real-time voice and screen companion assistance when requested, while safeguarding sensitive information.</string>
+</resources>

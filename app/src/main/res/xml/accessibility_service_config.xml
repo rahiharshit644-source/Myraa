@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Accessibility Service configuration for SoltiniAccessibilityService.
+
+  ── Why these event types are static ────────────────────────────────────────
+  Previous code modified serviceInfo at runtime to toggle event types between
+  "low friction" and "high friction" modes. Android treats runtime serviceInfo
+  changes as signs of an unstable service and auto-disables the permission when
+  the process crashes or restarts unexpectedly.
+
+  FIX: Subscribe to ALL needed events here, statically. Filtering is done
+  inside SoltiniAccessibilityService.onAccessibilityEvent() via the
+  isToolCallActive @Volatile flag — zero risk to the permission.
+
+  ── Event types explanation ──────────────────────────────────────────────────
+  typeWindowStateChanged     — detect app switches (always needed)
+  typeViewFocused            — track focused editable fields for type_text tool
+  typeWindowContentChanged   — detect UI updates during tool execution
+
+  ── Capabilities ────────────────────────────────────────────────────────────
+  canRetrieveWindowContent   — lets readScreen() walk the full UI tree
+  canPerformGestures         — lets tapAt() / swipe() dispatch touch gestures
+  flagRetrieveInteractiveWindows — required to read windows across apps
+-->
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeViewFocused|typeViewClicked|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault|flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:canTakeScreenshot="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100"
+    android:settingsActivity="com.soltini.app.MainActivity" />

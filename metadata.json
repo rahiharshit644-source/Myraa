@@ -1,0 +1,6 @@
+{
+  "name": "Myra",
+  "description": "Human-like voice AI companion with emotional reactions, full phone hardware control, Instagram & WhatsApp messaging, live screen reading & vision, and 1,756+ public APIs integrated across 51 categories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

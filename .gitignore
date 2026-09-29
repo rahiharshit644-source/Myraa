@@ -1,0 +1,20 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+# debug.keystore is intentionally NOT ignored — it must be committed so every CI build
+# (and every local build) signs debug APKs with the SAME certificate. Password is the
+# standard Android debug password "android" — this is not sensitive, it's a debug-only key.
